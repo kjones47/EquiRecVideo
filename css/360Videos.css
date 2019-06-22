@@ -1,0 +1,23 @@
+<style>
+.hamburger hamburger--3dx {
+	background-color: green;
+}
+.icono-rewind {color: red;}
+
+.fas fa-backward {
+	color:white;
+	position:absolute;
+	top:10px;
+	right:30px;
+}
+
+
+#rewind:active {
+	color:white;
+	position:absolute;
+	top:10px;
+	right:30px;
+    width: 110%;
+    height: 110%;
+}
+</style>

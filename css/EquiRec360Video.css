@@ -1,0 +1,43 @@
+<style>
+.triangle-left {
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 8px;
+	left: 16px;
+	font-size: 18px;
+	border-top: 20px solid transparent;
+	border-right: 40px solid #555;
+	border-right-color: coral;
+	border-bottom: 20px solid transparent;
+}
+.triangle-left:hover { 
+  border-right-color: yellow;
+  opacity:70%;
+}
+
+.triangle-right:hover { 
+  border-left-color: yellow;
+  opacity:70%;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 8px;
+	left: 64px;
+	border-top: 20px solid transparent;
+	border-left: 40px solid #555;
+	border-left-color: coral;
+	border-bottom: 20px solid transparent;
+}
+#video{
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+</style>
